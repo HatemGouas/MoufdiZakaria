@@ -1,0 +1,152 @@
+
+#main{
+         display: flex;
+         flex-grow: 1;
+         align-content: space-around;
+         flex-shrink: 0;
+         flex-direction: column;
+          height: 60cm;
+          background-color: rgb(181, 199, 199);
+          
+          margin: 1cm 0.2cm 1cm 0.2cm ;
+          border-radius: 0.2cm;
+         
+        
+          
+         
+          
+
+}
+
+#title{   display: flex;
+          flex-grow: 0;
+          background-color: rgb(181, 199, 199);
+          height: 3cm;
+         align-items: flex-end;
+         justify-content: center;
+           font-size: 300%;
+           font-family: fantasy;
+          border-radius: 2mm;
+          color: rgb(32, 30, 30);
+          opacity: 0.5;
+}
+
+#title2{
+ display: flex;
+ background-color: rgb(181, 199, 199);
+ height: 1.5cm;
+ justify-content: center;
+align-items: center;
+opacity: 0.5;
+
+ font-size: 120%;
+
+}
+
+
+#img-div{
+         display: flex;
+         flex-direction: column;
+         height: 10cm;
+         background-color: rgb(181, 199, 199);
+         align-items: center;
+
+        
+}
+
+#img-caption{
+        height: 2cm;
+        background-color: rgb(181, 199, 199);
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(32, 30, 30);
+      
+}
+
+
+#tribute-info{
+          display: flex;
+          flex-direction: column;
+          height: 30cm;
+          background-color: lemonchiffon;
+          max-width: 18cm;
+          text-align: left;
+          flex-shrink: 1;
+          min-width: 10cm;
+          align-self: center;
+          border-radius: 00.2cm;
+          padding-bottom: 1.5cm;
+          
+         
+          
+}
+#tribute-info:hover{
+          animation-duration: 2s;
+          animation-name: hatem5;
+}
+
+@keyframes hatem5{
+          50%{ transform: scale(1.03);}
+          100%{ transform: scale(1); }
+}
+
+
+#tribute-link{
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          flex-shrink: 1;
+          background-color:rgb(181, 199, 199);
+          height: 6.5cm;
+          max-width: 10cm;
+         font-family: fantasy;
+         font-weight: 600;
+         font-size: 150%;
+         
+
+          
+}
+a:hover{
+          animation-name: hatem;
+          animation-duration: 2s;
+          animation-fill-mode: forwards;
+
+          
+          
+}
+@keyframes hatem{
+          
+          50%{ transform: scale(1.2); color: red;}
+          100%{ transform: scale(1.2); color: #000;}
+}
+
+         #title:hover{
+                   animation-duration: 2s;
+                   animation-name: hatem2;
+                   animation-fill-mode: forwards;
+         }
+@keyframes hatem2 {
+      50%{transform: scale(1.2); color: rgb(218, 21, 21); }
+      100%{transform: scale(1.2);color: black;}
+
+}
+#image:hover{
+          animation-name:hatem3 ;
+          animation-duration:2s ;
+          animation-fill-mode:none;
+}
+@keyframes hatem3{
+50%{ transform: scale(1.2); border-radius: 0.5cm;}
+100%{ transform: scale(1);}
+}
+#title2:hover{
+          animation-name:hatem4 ;
+          animation-duration:2s ;
+          animation-fill-mode:none;
+
+}
+@keyframes hatem4{
+          50%{ transform: scale(1.2); border-radius: 0.5cm;}
+100%{ transform: scale(1);}
+
+}
